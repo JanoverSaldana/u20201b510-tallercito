@@ -22,8 +22,5 @@ public class InventoryItemContextFacade(IInventoryItemQueryService inventoryItem
         return exists;
     }
 
-    public async Task<bool> updateStatusInventoryItem(Guid ProductSku)
-    {
-        throw new NotImplementedException();
-    }
+
 }

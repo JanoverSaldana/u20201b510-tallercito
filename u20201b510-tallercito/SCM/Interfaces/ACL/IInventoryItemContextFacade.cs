@@ -3,8 +3,4 @@
 public interface IInventoryItemContextFacade
 {
     Task<bool> existsInventoryItemByProductSku(Guid ProductSku);
-    
-    
-    Task<bool> updateStatusInventoryItem(Guid ProductSku);
-    
 }
