@@ -1,0 +1,6 @@
+@u20201b510_tallercito_HostAddress = http://localhost:5031
+
+GET {{u20201b510_tallercito_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
